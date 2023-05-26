@@ -73,3 +73,21 @@ body {
 #menu {
   font-family: "Josefin Sans", monospace;
 }
+
+.linklist {
+  text-decoration: none;
+  color: black;
+}
+
+.linklist:hover {
+  color: gray;
+}
+
+.linklist2 {
+  text-decoration: none;
+  color: black;
+}
+
+.linklist2:hover {
+  color: gray;
+}
