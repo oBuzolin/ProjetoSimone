@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Inconsolata&family=Josefin+Sans:wght@300&family=Kanit:wght@200&display=swap");
+
 html,
 body {
   margin: auto;
@@ -22,6 +24,7 @@ body {
 }
 
 body {
+  font-family: "Abel", sans-serif;
   background-image: url("/images/background_images/Best_Anor_Londo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
