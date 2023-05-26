@@ -69,3 +69,7 @@ body {
 .links:hover {
   color: wheat;
 }
+
+#menu {
+  font-family: "Josefin Sans", monospace;
+}
