@@ -93,4 +93,6 @@ body {
 }
 
 .tablejogo {
+  display: flex;
+  justify-content: space-around;
 }
