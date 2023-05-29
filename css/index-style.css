@@ -7,6 +7,15 @@ body {
   text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.blue {
+  color: red;
+}
+
 .fromlogo {
   width: 30vh;
 }
@@ -46,6 +55,8 @@ body {
   padding-right: 25px;
   font-size: 30px;
   background-color: white;
+  color: black;
+  text-decoration: none;
 }
 
 .navLinks {
@@ -75,16 +86,11 @@ body {
   font-family: "Josefin Sans", monospace;
 }
 
-.linklist {
-  color: black;
-  text-decoration: none;
-}
-
 .linklist:hover {
-  color: gray;
+  color: blue;
+  text-emphasis-color: grey;
+  text-decoration: solid;
 }
 
-.linklist:visited {
-  text-decoration: none;
-  color: black;
+.tablejogo {
 }
