@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon/teste.ico">
+    <link rel="stylesheet" href="css/news-style.css" class="rel">
+    <title>Inscreva-se na nossa Newsletter</title>
+</head>
+
+<body>
+    <header>
+        <div id="menu">
+            <img src="images/logos/From_Logo.webp" class="fromlogo">
+            <div class="navLinks">
+                <a href="index.html" class="links">Quem somos ?</a><br>
+                <a href="newsletter.html" class="links">Newsletter</a>
+                <!-- <details class="detailsNavLinks">
+                     <summary>Nossos Jogos</summary>
+                    <ul>
+                        <li><a href="#" class="links">Demon's Souls</a></li>
+                        <li><a href="#" class="links">Dark Souls 1</a></li>
+                        <li><a href="#" class="links">Dark Souls 3</a></li>
+                        <li><a href="#" class="links">Sekiro Shadows Die Twice</a></li>
+                        <li><a href="#" class="links">Elden Ring</a></li>
+                    </ul> 
+                </details> -->
+            </div>
+        </div>
+    </header>
+
+    <article>
+        <div class="container">
+            <div class="form">
+                <h1>Cadastre-se na nossa newsletter</h1>
+
+                <form>
+                    <p><label for="name">Nome</label>:
+                        <input id=nome type="text" name="nome" placeholder="Nome" required minlength="5">
+                    </p>
+
+                    <p> <label for="MelhorDS">Qual é o melhor ?</label>
+                        <br>
+                        <input id="DS1" type="radio" value="DS1" name="ds"><label for="DS1">Dark Souls 1</label>
+                        <br>
+                        <input id="DS2" type="radio" value="DS2" name="ds"><label for="DS2">Dark Souls 2</label>
+                        <br>
+                        <input id="DS3" type="radio" value="DS3" name="ds"><label for="DS3">Dark Souls 3</label>
+                        <br>
+                    </p>
+
+                    <p>
+                        <label for="sexo">Qual seu sexo?</label>
+                        <br>
+                        <input type="radio" name="sexo" id="sexo" value="masculino"><label
+                            for="masculino">Masculino</label>
+                        <br>
+                        <input type="radio" name="sexo" value="feminino" id="sexo"><label
+                            for="feminino">Feminino</label>
+                    </p>
+
+                    <p>
+                        <label for="email">Qual seu email?</label>
+                        <br>
+                        <input type="email" name="email" id="email" placeholder="Seu email aqui">
+                    </p>
+
+                    <p>
+                        <label for="senha">E sua senha ?</label>
+                        <br>
+                        <input type="password" name="senha" id="senha" placeholder="Sua senha aqui">
+                    </p>
+
+                    <p>
+                        <input type="submit" value="Cadastre-se">
+                    </p>
+
+                </form>
+            </div>
+        </div>
+
+    </article>
+
+
+    <footer>
+        <div class="blue">
+            Todos os direitos reservados a From Software Inc;<br>
+            Este site foi feito somente para fins educacionais.
+        </div>
+    </footer>
+</body>
+
+</html>

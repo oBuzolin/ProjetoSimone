@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Inconsolata&family=Josefin+Sans:wght@300&family=Kanit:wght@200&display=swap");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
 
 html,
 body {
@@ -13,12 +12,12 @@ a {
   color: black;
 }
 
-.blue {
-  color: red;
-}
-
 .fromlogo {
   width: 30vh;
+}
+
+.blue {
+  color: red;
 }
 
 #menu {
@@ -60,7 +59,6 @@ body {
   text-decoration: none;
   border-radius: 8px;
 }
-
 .navLinks {
   list-style: inside;
   list-style-type: none;
@@ -92,16 +90,9 @@ body {
   color: blue;
   text-emphasis-color: grey;
   text-decoration: solid;
-  animation: headShake 2s;
 }
 
 .tablejogo {
   display: flex;
   justify-content: space-around;
-}
-
-.centro {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
