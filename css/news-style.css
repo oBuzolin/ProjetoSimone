@@ -96,3 +96,45 @@ body {
   display: flex;
   justify-content: space-around;
 }
+
+label {
+  color: black;
+  font-weight: lighter;
+}
+
+.formataInput {
+  width: auto;
+  height: 2.06vh;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  background-color: aliceblue;
+}
+
+input:hover {
+  background-color: dimgray;
+  border-color: blue;
+}
+
+input:focus {
+  background-color: aliceblue;
+  border-color: blue;
+  color: black;
+}
+
+input::placeholder {
+  color: black;
+  font-weight: bolder;
+}
+
+input[type="submit"] {
+  background-color: aliceblue;
+  color: black;
+  font-weight: bolder;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 0.86vh;
+  border-top: 5px lightgray;
+  border-right: 5px lightgrey;
+  background: linear-gradient(to left #fc00ff, #00dbde);
+}
