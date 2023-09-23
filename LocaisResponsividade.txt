@@ -1,5 +1,0 @@
-Media Print: Ao fim de ambos os arquivos .css juntamente aos media queries.
-
-Flexbox propriedades: estão por todo o css incluindo principalmente identação de textos no site e container flexbox, serão mais fáceis de se encontrar no arquivo index-style.css
-
-Media Queries: 
