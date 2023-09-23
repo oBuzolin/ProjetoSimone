@@ -138,3 +138,28 @@ input[type="submit"] {
   border-right: 5px lightgrey;
   background: linear-gradient(to left #fc00ff, #00dbde);
 }
+
+@media print {
+  html,
+  body {
+    margin: auto;
+    padding: 0px;
+    text-decoration: none;
+  }
+
+  .fromlogo {
+    visibility: hidden;
+  }
+  #menu {
+    visibility: hidden;
+  }
+  .container {
+    border: 1px;
+    text-align: justify;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+  }
+}
