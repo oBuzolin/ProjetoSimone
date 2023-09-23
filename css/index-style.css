@@ -3,9 +3,11 @@
 
 html,
 body {
-  margin: auto;
-  padding: 0px;
-  text-decoration: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: none;
 }
 
 a {
@@ -37,13 +39,15 @@ a {
 body {
   font-family: "Abel", sans-serif;
   background-image: url("/images/background_images/Best_Anor_Londo.jpg");
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-attachment: fixed;
+  overflow: none;
 }
 
 .container {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   align-content: center;
   width: 70%;
@@ -122,10 +126,10 @@ body {
   }
 
   .fromlogo {
-    visibility: hidden;
+    display: none;
   }
   #menu {
-    visibility: hidden;
+    display: none;
   }
   .container {
     border: 1px;
@@ -158,6 +162,7 @@ body {
     color: black;
     text-decoration: none;
     border-radius: 8px;
+    overflow: none;
   }
 }
 
@@ -181,12 +186,13 @@ body {
     color: black;
     text-decoration: none;
     border-radius: 12px;
+    overflow: none;
   }
 }
 
 @media screen and (min-width: 769px) {
   body {
-    background-image: url("/images/background_images/AnorLondoIpad.webp");
+    background-image: url("/images/background_images/Best_Anor_Londo.jpg");
   }
   .container {
     display: inline-flex;
@@ -194,14 +200,15 @@ body {
     align-content: center;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 90%;
+    width: 75%;
     height: auto;
     border: 1px solid rgba(15, 255, 255, 1);
     text-align: center;
-    font-size: 40px;
+    font-size: 32px;
     background-color: rgba(255, 255, 255, 0.75);
     color: black;
     text-decoration: none;
     border-radius: 12px;
+    overflow: none;
   }
 }
